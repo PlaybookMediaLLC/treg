@@ -30,7 +30,7 @@ services:
       # Render adds uv to the Python runtime when uv.lock is present; its default is older than the
       # `required-version` in pyproject.toml, so name one it accepts.
       - key: NODE_VERSION
-        value: "22.22.0"
+        value: "22.23.4"
       - key: UV_VERSION
         value: "0.12.3"
       - key: TREG_DATABASE_URL
